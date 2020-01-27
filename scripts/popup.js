@@ -403,7 +403,7 @@
         '<div>\
           <div>\
             <hr/>\
-            Take a quick look at your Chrome settings and search for the <b>download location</b>.\
+            Take a quick look at your Edge/Chrome settings and search for the <b>download location</b>.\
             <span class="danger">If the <b>Ask where to save each file before downloading</b> option is checked, proceeding might open a lot of popup windows. Are you sure you want to do this?</span>\
           </div>\
           <input type="button" id="yes_button" class="success" value="YES" />\
