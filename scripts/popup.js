@@ -59,7 +59,7 @@
         $('#image_' + dimension + '_filter_slider').noUiSlider({
           behaviour: 'extend-tap',
           connect: true,
-          range: { min: parseInt(ls['filter_min_' + dimension + '_default']), max: parseInt(ls['filter_max_' + dimension + '_default']) },
+          range: { min: parseInt(10, ls['filter_min_' + dimension + '_default']), max: parseInt(ls['filter_max_' + dimension + '_default']) },
           step: 10,
           start: [ls['filter_min_' + dimension], ls['filter_max_' + dimension]],
           serialization: {
