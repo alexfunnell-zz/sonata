@@ -41,7 +41,7 @@
       // Image dimension filters
       var serializeSliderValue = function (label, option) {
         return $.Link({
-          target: function (value) {
+          target(value) {
             $('#' + label).html(value + 'px');
             ls[option] = value;
             filterImages();
