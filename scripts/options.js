@@ -84,7 +84,7 @@
   }
 
   function addNotification(message, cssClass) {
-    var animation_duration = parseInt(ls.animation_duration);
+    var animation_duration = parseInt(10, ls.animation_duration);
     var container =
       $('<div></div>')
         .prependTo('#notifications')
