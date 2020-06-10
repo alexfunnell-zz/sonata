@@ -320,7 +320,7 @@
     var toggle_all_checkbox_row = '<tr><th align="left" colspan="' + ls.columns + '"><label><input type="checkbox" id="toggle_all_checkbox" />Select all (' + visibleImages.length + ')</label></th></tr>';
     images_table.append(toggle_all_checkbox_row);
 
-    var columns = parseInt(ls.columns);
+    var columns = parseInt(10, ls.columns);
     var columnWidth = (Math.round(100 * 100 / columns) / 100) + '%';
     var rows = Math.ceil(visibleImages.length / columns);
 
