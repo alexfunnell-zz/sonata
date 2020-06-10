@@ -59,7 +59,7 @@
         $('#image_' + dimension + '_filter_slider').noUiSlider({
           behaviour: 'extend-tap',
           connect: true,
-          range: { min: parseInt(ls['filter_min_' + dimension + '_default']), max: parseInt(ls['filter_max_' + dimension + '_default']) },
+          range: { min: parseInt(10, ls['filter_min_' + dimension + '_default']), max: parseInt(ls['filter_max_' + dimension + '_default']) },
           step: 10,
           start: [ls['filter_min_' + dimension], ls['filter_max_' + dimension]],
           serialization: {
@@ -320,7 +320,7 @@
     var toggle_all_checkbox_row = '<tr><th align="left" colspan="' + ls.columns + '"><label><input type="checkbox" id="toggle_all_checkbox" />Select all (' + visibleImages.length + ')</label></th></tr>';
     images_table.append(toggle_all_checkbox_row);
 
-    var columns = parseInt(ls.columns);
+    var columns = parseInt(10, ls.columns);
     var columnWidth = (Math.round(100 * 100 / columns) / 100) + '%';
     var rows = Math.ceil(visibleImages.length / columns);
 
@@ -428,7 +428,7 @@
   }
 
   function flash(element, flashes, interval, callback) {
-    if (!interval) interval = parseInt(ls.animation_duration);
+    if (!interval) interval = parseInt(10, ls.animation_duration);
 
     var fade = function (fadeIn) {
       if (flashes > 0) {
