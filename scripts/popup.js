@@ -428,7 +428,7 @@
   }
 
   function flash(element, flashes, interval, callback) {
-    if (!interval) interval = parseInt(ls.animation_duration);
+    if (!interval) interval = parseInt(10, ls.animation_duration);
 
     var fade = function (fadeIn) {
       if (flashes > 0) {
