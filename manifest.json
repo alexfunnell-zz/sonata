@@ -1,7 +1,7 @@
 {
   "name": "sonata",
   "description": "Bulk image downloader for Chromium-based browsers. Optimised for Edge.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "minimum_chrome_version": "31",
   "manifest_version": 2,
   "permissions": [
